@@ -63,9 +63,9 @@ function App() {
         <div className='p-2 text-xl'>Create strong and secure passwords to keep your account safe online.</div>
         <div className='p-2 m-2 flex flex-wrap items-center w-full  justify-start gap-3 mobile:justify-evenly'>
           <div className='flex flex-wrap rounded-3xl shadow-[0_3px_10px_rgb(0,0,0,0.2)] px-2 py-1 
-          items-center justify-center w-fit'
+          items-center justify-between w-fit'
           >
-            <div className='text-2xl  w-6/12 mobile:w-9/12'>
+            <div className='text-2xl w-6/12 mobile:w-9/12'>
               <input
                 type="text"
                 className="outline-none cursor-default py-1 px-3 bg-transparent"
