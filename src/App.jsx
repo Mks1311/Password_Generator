@@ -106,7 +106,7 @@ function App() {
                 }
               }}
             >-</div>
-            <input id="rangeSlider" type="range" min={2} max={99} value={length} className="w-[180px] py-2 
+            <input id="rangeSlider" type="range" min={2} max={32} value={length} className="w-[180px] py-2 
             accent-[#0070f6] mt-1"
               onChange={(e) => { SetLength(e.target.value) }}
             ></input>
