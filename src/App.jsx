@@ -112,7 +112,7 @@ function App() {
             <div className='mx-2 bg-white border border-black scale-100 duration-300 text-black 
             px-4 text-3xl cursor-pointer rounded-3xl hover:scale-110 select-none'
               onClick={() => {
-                if (length < 99) {
+                if (length < 32) {
                   length++;
                   SetLength(length)
                 }
